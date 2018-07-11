@@ -34,7 +34,7 @@ echo "--- Atualizando lista de pacotes ---"
 sudo apt-get update
 
 echo "--- Instalando MySQL, Phpmyadmin e alguns outros modulos ---"
-sudo apt-get install mysql-server-5.5 mysql-client phpmyadmin --assume-yes --force-yes
+sudo apt-get install mysql-server-5.7 mysql-client phpmyadmin --assume-yes --force-yes
 
 echo "--- Instalando PHP, Apache e alguns modulos ---"
 sudo apt-get install php7.1 php7.1-common --assume-yes --force-yes
